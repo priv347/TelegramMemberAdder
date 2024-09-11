@@ -17,7 +17,7 @@ group_username = input("Enter the group username (e.g., @yourgroup): ")
 target_group_link = input("Enter the target group link (e.g., https://t.me/targetgroup): ")
 csv_file = 'members.csv'  # The CSV file containing the members to be added
 num_users_per_account = 50  # Number of users to add per account before taking a break
-delay_between_adds = 30  # Delay between each add action in seconds
+delay_between_adds = 120  # Delay between each add action in seconds
 delay_between_batches = 900  # Delay between batches of adding users
 
 # Function to scrape users from a group
